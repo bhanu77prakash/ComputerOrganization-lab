@@ -1,0 +1,17 @@
+xst -intstyle ise -ifn "C:/Users/student/Desktop/GROUP 18/radix_fin/tester/booth_radix4.xst" -ofn "C:/Users/student/Desktop/GROUP 18/radix_fin/tester/booth_radix4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-4 "booth_radix4.ngc" booth_radix4.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o booth_radix4_map.ncd booth_radix4.ngd booth_radix4.pcf 
+par -w -intstyle ise -ol high -t 1 booth_radix4_map.ncd booth_radix4.ncd booth_radix4.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml booth_radix4.twx booth_radix4.ncd -o booth_radix4.twr booth_radix4.pcf 
+bitgen -intstyle ise -f booth_radix4.ut booth_radix4.ncd 
+xst -intstyle ise -ifn "C:/Users/student/Desktop/checker/source_program/booth_radix4.xst" -ofn "C:/Users/student/Desktop/checker/source_program/booth_radix4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-4 booth_radix4.ngc booth_radix4.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o booth_radix4_map.ncd booth_radix4.ngd booth_radix4.pcf 
+par -w -intstyle ise -ol high -t 1 booth_radix4_map.ncd booth_radix4.ncd booth_radix4.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml booth_radix4.twx booth_radix4.ncd -o booth_radix4.twr booth_radix4.pcf 
+bitgen -intstyle ise -f booth_radix4.ut booth_radix4.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-4 booth_radix4.ngc booth_radix4.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o booth_radix4_map.ncd booth_radix4.ngd booth_radix4.pcf 
+par -w -intstyle ise -ol high -t 1 booth_radix4_map.ncd booth_radix4.ncd booth_radix4.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml booth_radix4.twx booth_radix4.ncd -o booth_radix4.twr booth_radix4.pcf 
+bitgen -intstyle ise -f booth_radix4.ut booth_radix4.ncd 

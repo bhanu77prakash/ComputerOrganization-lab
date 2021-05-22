@@ -1,0 +1,41 @@
+Net "clk" loc="p76";
+
+Net "mpcand[0]" loc="p191";//0-7
+Net "mpcand[1]" loc="p190";
+Net "mpcand[2]" loc="p196";
+Net "mpcand[3]" loc="p194";
+Net "mpcand[4]" loc="p198";
+Net "mpcand[5]" loc="p197";
+Net "mpcand[6]" loc="p200";
+Net "mpcand[7]" loc="p199";
+
+Net "mplier[0]" loc="p27";//16-23
+Net "mplier[1]" loc="p28";
+Net "mplier[2]" loc="p24";
+Net "mplier[3]" loc="p26";
+Net "mplier[4]" loc="p21";
+Net "mplier[5]" loc="p22";
+Net "mplier[6]" loc="p19";
+Net "mplier[7]" loc="p20";
+
+Net "go" loc="p9";//25
+Net "reset" loc="p10";//24
+
+
+Net "prod[0]" loc="p139";//ol 0-15
+Net "prod[1]" loc="p140";
+Net "prod[2]" loc="p137";
+Net "prod[3]" loc="p138";
+Net "prod[4]" loc="p133";
+Net "prod[5]" loc="p135";
+Net "prod[6]" loc="p131";
+Net "prod[7]" loc="p132";
+Net "prod[8]" loc="p149";
+Net "prod[9]" loc="p150";
+Net "prod[10]" loc="p147";
+Net "prod[11]" loc="p148";
+Net "prod[12]" loc="p144";
+Net "prod[13]" loc="p146";
+Net "prod[14]" loc="p141";
+Net "prod[15]" loc="p143";
+Net "over" loc="p176";//ol 17

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\student\Desktop\checker\source_program\booth_radix4.ncd
+OUTFILE=C:\Users\student\Desktop\checker\source_program\booth_radix4.bit
+FAMILY=Spartan3
+PART=xc3s400-4pq208
+WORKINGDIR=C:\Users\student\Desktop\checker\source_program
+LICENSE=WebPack
+USER_INFO=__0_0_0
